@@ -1,23 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Graphik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: "Graphik";
-  src: local(Graphik-Regular),
-    url(/path/to/Graphik-Regular.woff2) format("woff2"),
-    url(/path/to/Graphik-Regular.woff) format("woff"),
-    url(/path/to/Graphik-Regular.ttf) format("truetype");
-  font-weight: normal;
+  src: local(Graphik-Regular), url(/font/Graphik-Regular.woff) format("woff");
+
   font-style: normal;
   font-stretch: normal;
 }
 
 @font-face {
   font-family: "Graphik";
-  src: local(Graphik-Medium), url(/path/to/Graphik-Medium.woff2) format("woff2"),
-    url(/path/to/Graphik-Medium.woff) format("woff"),
-    url(/path/to/Graphik-Medium.ttf) format("truetype");
+  src: local(Graphik-Medium), url(/font/Graphik-Medium.woff) format("woff");
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -25,10 +20,7 @@
 
 @font-face {
   font-family: "Graphik";
-  src: local(Graphik-Semibold),
-    url(/path/to/Graphik-Semibold.woff2) format("woff2"),
-    url(/path/to/Graphik-Semibold.woff) format("woff"),
-    url(/path/to/Graphik-Semibold.ttf) format("truetype");
+  src: local(Graphik-Semibold), url(/font/Graphik-Semibold.woff) format("woff");
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -36,9 +28,7 @@
 
 @font-face {
   font-family: "Graphik";
-  src: local(Graphik-Bold), url(/path/to/Graphik-Bold.woff2) format("woff2"),
-    url(/path/to/Graphik-Bold.woff) format("woff"),
-    url(/path/to/Graphik-Bold.ttf) format("truetype");
+  src: local(Graphik-Bold), url(/font/Graphik-Bold.woff) format("woff");
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -327,6 +317,7 @@ svg {
 .s-right {
   width: 30%;
   height: 90%;
+  margin-top: 6%;
   background-color: white;
   box-shadow: 0px 18px 50px rgba(38, 46, 79, 0.06);
   border-radius: 15px;
