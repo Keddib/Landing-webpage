@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Graphik";
+  src: local(Graphik-Regular), url(./font/Graphik-Regular.woff2) format("woff2");
+
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: local(Graphik-Medium), url(./font/Graphik-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: local(Graphik-Semibold),
+    url(./font/Graphik-Semibold.woff2) format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: local(Graphik-Bold), url(./font/Graphik-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+:root {
+  --dark-indigo: #0d1537;
+  --robin-s-egg: #57cafa;
+  --pale-grey: #f7f5fc;
+  --seafoam-green: #81f1b2;
+  --pale-grey-two: #f7f8fc;
+  --robin-s-egg-two: #5bcef2;
+  --seafoam: #87f5aa;
+  --light-periwinkle: #d5daf0;
+  --steel: #737a96;
+  --pale-grey-three: #f3f4f5;
+  --pale-sky-blue: #cde0f2;
+}
+h1 {
+  font-family: "Graphik", sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+h2 {
+  font-family: "Graphik", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+}
+
+h3 {
+  font-family: "Graphik", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+h4 {
+  font-family: "Graphik", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+h5 {
+  font-family: "Graphik", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+h6 {
+  font-family: "Graphik", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--steel);
+}
+.paragraph-1 {
+  font-family: "Graphik", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--light-periwinkle);
+}
+.paragraph-2 {
+  font-family: "Graphik", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--steel);
+}
+
+.author {
+  font-family: "Graphik", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--seafoam-green);
+}
