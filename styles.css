@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Graphik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 @font-face {
   font-family: "Graphik";
@@ -67,6 +66,14 @@ h1 {
   line-height: 1.14;
   letter-spacing: normal;
   text-align: center;
+}
+
+body {
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 
 h2 {
@@ -158,7 +165,7 @@ h6 {
 }
 /* home section */
 .home {
-  width: 100vw;
+  width: 100%;
   height: auto;
   position: relative;
 }
@@ -403,7 +410,9 @@ svg {
 /* end of section home */
 
 /* start of section what is */
-
+.what-is {
+  width: 100%;
+}
 .c-what-is {
   display: flex;
   flex-direction: column;
@@ -420,6 +429,11 @@ svg {
   margin: 0 18% 5px 18%;
   text-align: center;
   font-size: 20px;
+}
+
+/* covered section */
+.covered {
+  width: 100%;
 }
 .t-covered {
   text-align: center;
@@ -478,6 +492,7 @@ svg {
 /* princing section */
 .pricing {
   background-color: #f4f5f6;
+  width: 100%;
 }
 
 .two-options {
@@ -513,7 +528,9 @@ svg {
 /* pricing section end */
 
 /* traainers section */
-
+.trainers {
+  width: 100%;
+}
 .tr-divs {
   display: flex;
   justify-content: space-around;
@@ -552,11 +569,12 @@ svg {
 }
 /* end of trainers */
 .subscribe {
-  width: 100vw;
+  width: 100%;
   height: auto;
   position: relative;
 }
 .subscribe::after {
+  width: 100%;
   content: "";
   display: block;
   position: absolute;
@@ -634,6 +652,7 @@ svg {
   border: none;
 }
 footer {
+  width: 100%;
   background: linear-gradient(172.43deg, #f3f4f5 3.29%, #cde0f2 91.67%);
 }
 
@@ -673,7 +692,46 @@ input::placeholder {
   padding-left: 20px;
 }
 @media only screen and (max-width: 750px) {
-  body {
-    background-color: lightblue;
+  .container {
+    flex-direction: column;
+  }
+  .section-one {
+    flex-direction: column;
+  }
+  .elem {
+    width: 100%;
+  }
+  .two-options {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .p-choice {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+
+  .tr-divs {
+    flex-direction: column;
+  }
+  .trainer {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .last-info {
+    flex-direction: column;
+  }
+  .sign-web {
+    width: 90%;
+  }
+  .f-subs {
+    width: 90%;
+  }
+  .f-subs input {
+    margin-bottom: 32px;
+  }
+  .f-a {
+    width: 50%;
   }
 }
