@@ -402,6 +402,7 @@ svg {
   border-radius: 5px;
   border: solid 1px rgba(38, 46, 79, 0.1);
   margin: 20px;
+  padding: 0 2%;
 }
 .sign-btn {
   width: 100%;
@@ -676,6 +677,7 @@ svg {
   box-sizing: border-box;
   box-shadow: inset 1px 1px 4px #d5daf0;
   border-radius: 4px;
+  padding: 0 2%;
 }
 
 .f-subs button {
@@ -731,16 +733,16 @@ footer {
 }
 
 input::placeholder {
-  padding: 0 5%;
+  padding: 0 2%;
 }
 ::-webkit-input-placeholder {
-  padding: 0 5%;
+  padding: 0 2%;
 }
 ::-moz-placeholder {
-  padding: 0 5%;
+  padding: 0 2%;
 }
 :-moz-placeholder {
-  padding: 0 5%;
+  padding: 0 2%;
 }
 
 @media only screen and (max-width: 750px) {
@@ -756,7 +758,6 @@ input::placeholder {
   .s-right {
     width: 100%;
     padding-top: 20%;
-    border: 1px solid red;
     text-align: center;
   }
   .box h4 {
@@ -768,6 +769,7 @@ input::placeholder {
 
   .sign input {
     margin: 0;
+    padding: 5%;
   }
   .container {
     flex-direction: column;
@@ -832,6 +834,7 @@ input::placeholder {
   }
   .f-subs input {
     width: 100%;
+    padding: 5%;
   }
   .f-subs button {
     width: 100%;
