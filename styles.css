@@ -179,7 +179,7 @@ h6 {
 
 .container {
   max-width: 1440px;
-  padding: 50px 0 50px 0;
+  padding: 50px 30px 50px 0;
   z-index: 10;
 }
 /* nav bar styling */
@@ -644,6 +644,14 @@ svg {
   background: #81f1b2;
   border-radius: 4px;
   border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
 }
 footer {
   width: 100%;
